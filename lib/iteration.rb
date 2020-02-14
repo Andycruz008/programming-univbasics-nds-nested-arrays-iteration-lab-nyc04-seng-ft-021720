@@ -42,7 +42,7 @@ row = 0
 while row < src.count 
   column = 0
   while column < src[row].count
-      if src[row][column] % src[row][column +1] = 0
+      if src[row][column] % src[row][column + 1] = 0
         total += ( src[row][column] + src[row][column +1] )
       end
       column += 2
