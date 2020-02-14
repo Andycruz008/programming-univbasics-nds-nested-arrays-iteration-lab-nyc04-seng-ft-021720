@@ -49,9 +49,5 @@ while row < src.count
     end
   row += 1
 end
-
-
-
-
 total
 end
