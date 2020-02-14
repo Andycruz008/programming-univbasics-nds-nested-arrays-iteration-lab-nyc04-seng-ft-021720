@@ -4,7 +4,7 @@ ingredients = []
 row = 0 
 while row < src.count 
   column = 0
-  while column < src.count[row].count
+  while column < src[row].count
       ingredients[row]<<( "I love " +src[row][column]+ "and"+src[row][column + 1]+ "on my pizza")
       column += 2
     end
