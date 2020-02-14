@@ -37,15 +37,13 @@ end
 
 def total_even_pairs(src)
 
-total = []  
+total = 0 
 row = 0 
 while row < src.count 
   column = 0
   while column < src[row].count
       if src[row][column] % src[row][column +1] = 0
         total += ( src[row][column] + src[row][column +1] )
-      else
-        larger<< src[row][column + 1]
       end
       column += 2
     end
