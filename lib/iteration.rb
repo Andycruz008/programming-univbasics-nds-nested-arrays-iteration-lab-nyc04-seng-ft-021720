@@ -5,7 +5,7 @@ row = 0
 while row < src.count 
   column = 0
   while column < src[row].count
-      ingredients<<( "I love " +src[row][column]+ "and"+src[row][column + 1]+ "on my pizza")
+      ingredients<<( "I love " +src[row][column]+ " and "+src[row][column + 1]+ "on my pizza")
       column += 2
     end
   row += 1
